@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: gerador-horario-api
+    env: java
+    plan: free
+    rootDir: gerador-horario-api
+    buildCommand: "./mvnw clean package"
+    startCommand: "java -jar target/*.jar"
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
