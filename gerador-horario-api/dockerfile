@@ -1,4 +1,3 @@
-# Usa Java 21 como base
 FROM eclipse-temurin:21-jdk-alpine
 
 # Define o diretório de trabalho dentro do container
